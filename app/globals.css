@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* App background */
+html, body {
+  background: #03050B;
+  color: white;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Smooth button feel */
+button {
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+a {
+  cursor: pointer;
+}
