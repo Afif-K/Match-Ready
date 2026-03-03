@@ -195,12 +195,14 @@ export default function PlannerPage() {
 
         <div className="grid grid-cols-7 gap-4 text-center">
           {weekDates.map((dateObj)=>{
-            const dateStr = dateObj.toISOString().split("T")[0];
+            const dateStr = new Date(
+          dateObj.getTime() - dateObj.getTimezoneOffset() * 60000
+          ).toISOString().split("T")[0];
             const isSelected = selectedDate === dateStr;
 
             return(
               <button
-                key={dateStr}
+                key={`${dateStr}-${dateObj.getDay()}`}
                 onClick={()=>setSelectedDate(dateStr)}
                 className={`p-4 rounded-xl border transition-all duration-300
                 ${isSelected
