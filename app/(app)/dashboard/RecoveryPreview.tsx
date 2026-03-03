@@ -1,3 +1,13 @@
+/* This componenet is vital for checking the recovery. It alsoows the user to select, the three main facotrs of recovery which are sleep,
+hydrations, and soreness. There is a slider to select the percentage of how much you have slept, how much water you drank and how sore you feel.
+Then you select any recovery techniques used to help enhance your overall health. Then it gives a unquque recovery score for that day and it
+is saved on a log that tracks the recovery histry and progress.  
+
+
+*/
+
+
+
 "use client";
 
 import { FaChartLine, FaArrowRight } from "react-icons/fa";

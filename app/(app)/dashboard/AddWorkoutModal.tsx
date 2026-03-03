@@ -1,3 +1,9 @@
+/* This compenent allows the user to add a workout by selecting the name, type, duration, and calories that the user wants to burn.
+The user has three options either morning, evening, or night and he cant select more than one session in the same time sloot per day. 
+*/ 
+
+
+
 "use client";
 import { useEffect, useState } from "react";
 

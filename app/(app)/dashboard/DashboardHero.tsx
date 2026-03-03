@@ -1,3 +1,9 @@
+/* This component is the dashboard page where it has the general information on the users page. It shows the general view if the workouts,
+calories burned, training score, and the upcoming matches and the plans for todays workouts.  
+*/ 
+
+
+
 import { Sparkles } from "lucide-react";
 import Link from "next/link";
 

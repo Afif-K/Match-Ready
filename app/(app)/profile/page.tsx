@@ -1,3 +1,10 @@
+/* This page holds the users perosnal infromation. It has the users name, age, hieght woeght and his club and also could worte his goals. It 
+also has his email which is fetched from Firestore. The user also has his recovery, calories and workouts present on his profile and also the 
+upcoming football matches with the place and weather cinditions. 
+*/ 
+
+
+
 "use client";
 
 import { useState, useEffect } from "react";

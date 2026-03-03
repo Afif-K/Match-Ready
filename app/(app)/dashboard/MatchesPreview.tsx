@@ -1,3 +1,11 @@
+/* This component is how the user can add a match and then view it. Here there is a use of two API's , one for the upcoming matches and the 
+other one is for the weather based on where the game is. So the user inouts his team and then he will get a list of the teams he will play
+against, and the weather comditions for the game. It will give him a heads up on what to use as cleats and how to tailer is warmup and recovery.
+Uses React hooks (useState/useEffect) and AuthContext.
+*/ 
+
+
+
 "use client";
 
 import { FaFutbol, FaClock, FaCloudSun } from "react-icons/fa";

@@ -1,3 +1,9 @@
+/* This page handles user authentication for the app. It supports two login methods: Google sign in using Firebase and email/password
+  login using Firebase Auth. After a successful login, the user is redirected to the dashboard. The UI includes a styled login card with 
+  a background image, a Google button, and an email/password form. Loading state is used to prevent repeated submissions while authentication 
+  is in progress.
+  */
+
 "use client";
 
 import Link from "next/link";

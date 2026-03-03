@@ -1,3 +1,10 @@
+/* The recovery page holds the secetors for the sleep. hydrations and soreness. Also has a series of recovery technques that the user can tik off
+to enhance his recovery socre. The user can then save the recovery score and track his revoery progress. 
+
+*/ 
+
+
+
 "use client";
 
 import { useState, useEffect } from "react";

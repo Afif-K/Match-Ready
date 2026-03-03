@@ -1,3 +1,11 @@
+/*  This page allows the user to manage their football matches. Users can add,edit, and delete upcoming fixtures, which are 
+stored in Firestore and filtered by the logged-in user. For each match, the system retrieves weather information based on the match 
+location using the Open-Meteo API. It also calculates a “match readiness” score based on workouts and recovery logs from the past seven 
+days, adjusting the score depending on weather conditions. The page combines match management, live data fetching, and readiness analysis
+ to help athletes stay prepared and organized.
+*/ 
+
+
 "use client";
 
 import { useState, useRef, useEffect } from "react";

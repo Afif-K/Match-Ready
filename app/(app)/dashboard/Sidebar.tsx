@@ -1,3 +1,8 @@
+/*The side bar is the navigation bar of the page that is on the left side of the page that contains acess to all the pages, with small icons
+that represent eah page and also has the log out button. 
+ */
+
+
 "use client";
 import {
   LayoutDashboard,

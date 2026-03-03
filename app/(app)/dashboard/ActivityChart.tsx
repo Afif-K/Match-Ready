@@ -1,3 +1,8 @@
+/* This compoenent shows the acitivity selecotor for the sleep, hydration and sorness. It shows the intesnity and gives
+a total recovery score based on the scores of the idividual indicators. 
+*/ 
+
+
 "use client";
 import {
   LineChart,

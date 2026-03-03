@@ -1,3 +1,10 @@
+/*Here the stats page is in charge of the score for recovery. based on the the user's input, the value enteredd is then used in an equation
+for each compenent which are then merged into calculating the recovery score. Also, it takes the values of the users inouts and saves them if no
+calcuation must be done or if a simple one is done such as tracking the claores burned.  
+*/
+
+
+
 "use client";
 import {
   LineChart,

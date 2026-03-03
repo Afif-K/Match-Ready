@@ -1,3 +1,12 @@
+  /*This page lets the user plan and manage workouts using a weekly calendar view. It loads the users workouts from Firestore, then 
+  filters sessions by the selected date. Users can add new workouts through a modal, edit existing workouts, or delete them. The planner 
+  also supports browsing different weeks using next and previous controls and keeps workouts sorted by time of day. 
+  
+  */
+
+
+
+
 "use client";
 import { Plus } from "lucide-react";
 import { useState, useEffect } from "react";

@@ -1,3 +1,11 @@
+/* This page handles user sign up for the app. It supports two sign up methods: Google sign up using Firebase and email/password
+  sign up using Firebase Auth. After a successful sign up, the user is redirected to the login. The UI includes a styled login card with 
+  a background image, a Google button, and an email/password form. Loading state is used to prevent repeated submissions while authentication 
+  is in progress.
+  */
+
+
+
 "use client";
 
 import Link from "next/link";

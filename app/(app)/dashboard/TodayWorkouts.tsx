@@ -1,3 +1,10 @@
+/* This component is for daily workouts by choosing the type, duration, calroies, time and date. It helps the user paln his workouts
+effectivly and makes sure that no workout coincides with another. The workouts can be planned for future ones. s
+*/
+
+
+
+
 "use client";
 
 import { useEffect, useState } from "react";

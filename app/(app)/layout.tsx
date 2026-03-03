@@ -1,3 +1,6 @@
+// This page has the whole layout of the enitre website from the loading screen until the profile page.
+
+
 "use client";
 
 import { useEffect } from "react";
